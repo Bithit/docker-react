@@ -6,4 +6,4 @@ before_install:
   - docker build -t bithit/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run Bithit/docker-react npm run test -- --coverage
+  - docker run bithit/docker-react npm run test -- --coverage
